@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    color: white;
+    
+}
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box; 
+}
+
+
+ul {
+    list-style: none;
+}
+
+.main-header{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.logo{
+    width: 210px;
+    height: auto;
+    
+}
+
+.logo img{
+    width: 100%;
+    display: block;
+    padding-left: 45px;
+}
+
+.desktop-main-menu{
+    margin-right: 3px;
+}
+
+.desktop-main-menu ul{
+    display: flex;
+    font-size: small;
+    width: 100%;
+}
+
+.desktop-main-menu ul li{
+    padding-top: 8px;
+    margin-right: 20px;
+    
+    padding-bottom: 2px;
+}
+
+.section-a{
+    background-image: url(STARSHIP_CAROUSEL_DESKTOP_Sunset_Full_Stack_031522_DJI_0066_544ff6b208.jpg);
+    
+}
+
+.section-b{
+    background-image: url(Vandy_desktop1_686164ccc7.jpg);
+    
+}
+
+.section-c{
+    background-image: url(Intelsat40e_causeway_DSC_0385_desktop_f2530f7f25.jpg);
+    
+}
+
+.section-d{
+    background-image: url(Homepage_Desktop_5ebdeb0c6c.webp);
+    
+}
+
+button{
+    padding: 15px 55px;
+    color: white;
+    border: 3px solid white;
+    background: transparent;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 1px;
+}
+
+
+section{
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    
+}
+
+.section-inner{
+    position: absolute;
+    bottom: 70px;
+    left: 50px;
+    max-width: 600px;
+}
+
+.section-inner h4{
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.section-inner h1{
+    font-size: 40px;
+}
+
+.final{
+    padding-left: 138px;
+    padding-right: 10px;
+}
+
+footer{
+    position: relative;
+    padding: 40px 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer ul li{
+    margin-right: 48px;
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.copy{
+    font-size: 11px;
+    color: #aaa;
+}
+
+.fa-bars{
+    padding-left: 28px;
+}
